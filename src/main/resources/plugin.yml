@@ -1,0 +1,23 @@
+name: PerWorldChatReborn
+version: '${version}'
+main: net.serveminecraft.minecrafteros.perworldchatreborn.PerWorldChatReborn
+api-version: '1.13'
+author: Adrian_oliva
+description: A plugin that allows you to have different chat channels for different worlds.
+softdepend: [ PlaceholderAPI ]
+
+commands:
+  perworldchat:
+    description: Main command for PerWorldChatReborn
+    permission: perworldchatreborn.command
+    aliases: [ pwc ]
+
+permissions:
+  perworldchat.command:
+    description: Allows the player to use the main command for PerWorldChatReborn
+    default: op
+  perworldchat.*:
+    description: Allows the player to use all the commands for PerWorldChatReborn
+    default: op
+    children:
+      perworldchat.command: true

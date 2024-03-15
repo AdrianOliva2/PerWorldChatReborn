@@ -1,0 +1,13 @@
+# This is the configuration file for the plugin
+
+# This is the format for the displayed chat message
+chat-format: "%vault_prefix% %player_displayname% %vault_suffix%&e>&6>&r %message%"
+
+# There are the messages for the plugin
+messages:
+  # This is the plugin prefix
+  prefix: "&b&lPerWorldChat &e>&6>&r"
+  # This is message showed when player or console reloads the plugin
+  plugin-reloaded: "%prefix% &aPlugin reloaded successfully."
+  # This is the message showed when user tries to use a command without permission
+  no-permission: "%prefix% &cYou don't have permission to use this command."
