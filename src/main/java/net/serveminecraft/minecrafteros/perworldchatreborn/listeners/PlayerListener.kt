@@ -25,7 +25,6 @@ class PlayerListener : Listener {
         var message: String = ChatColor.translateAlternateColorCodes('&', event.message)
 
         if (!player.hasPermission("perworldchat.chatcolor") && !player.isOp) {
-            player.sendMessage("You don't have permission")
             message = ChatColor.stripColor(message)!!
         }
 
