@@ -1,7 +1,7 @@
 # PerWorldChatReborn
 
-PerWorldChatReborn is a Minecraft plugin developed to separate user chats in different worlds. This plugin is built
-using Kotlin and Java, and it is managed with Gradle.
+PerWorldChatReborn is a Minecraft plugin developed to separate user chats in different worlds. This plugin is
+built using Kotlin and Java, and it is managed with Gradle.
 
 ## Features
 
